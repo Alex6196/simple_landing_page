@@ -3,3 +3,37 @@
     padding: 0px;
     box-sizing: border-box;
   }
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-color: black;
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  padding:1rem 3rem;
+  align-items:center;
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 41px;
+  outline: 4px solid red;
+}
+.active {
+  color: red !important;
+}
+
+button {
+  font-size: 2rem;
+  padding: 0.6rem 1rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, #c31432, #892211);
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  border: none;
+}
+
